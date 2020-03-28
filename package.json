@@ -1,0 +1,23 @@
+{
+  "name": "service-workers",
+  "version": "1.0.0",
+  "description": "Offline access using Service Workers",
+  "main": "index.js",
+  "scripts": {
+    "start:http": "protocol=http node index.js",
+    "start:https": "protocol=https node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarathps93/service-workers.git"
+  },
+  "author": "Sarath P S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarathps93/service-workers/issues"
+  },
+  "homepage": "https://github.com/sarathps93/service-workers#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
